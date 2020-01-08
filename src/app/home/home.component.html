@@ -1,0 +1,9 @@
+<h2>Lista de artículos</h2>
+<article *ngFor="let post of posts$ | async">
+  <header>
+    <h3><a [routerLink]="post.route">{{ post.title }}</a></h3>
+  </header>
+  <p>
+    {{ post.description }}
+  </p>
+</article>

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "angular-scully": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-scully"
+    }
+  },
+  "defaultProject": "angular-scully",
+  "cli": {
+    "analytics": "4bae1135-cd16-4e2f-905b-aa276dd08a6d"
+  }
 }
